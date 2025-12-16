@@ -47,7 +47,6 @@ export function obtenerProductos(){
     })
   )
 }
-obtenerProductos()
 
 export function agregarProducto(producto){
   return(
