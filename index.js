@@ -25,7 +25,7 @@ app.use(cors(corsConfig))
 // Consigna: interpretar JSON con body-parser
 app.use(bodyParser.json())
 
-app.use("/api", rutasLog)
+app.use("/auth", rutasLog)
 
 app.use((req, res, next) => {
     console.log(`Datos received at:  ${req.method} ${req.url}`);
